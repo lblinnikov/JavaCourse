@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77726217-ff5c-4965-be8e-dd5dcd205b1f" name="Default" comment="" />
+    <list default="true" id="77726217-ff5c-4965-be8e-dd5dcd205b1f" name="Default" comment="second home task init plus package refactor">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/branching/LeapYear.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/branching/PhoneBook.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/branching/PolynomRoots.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/branching/SecondLargest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/branching/SignumFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/statements/looping/Looping1.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/DumbTimeConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/MyExerciseProgram1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/org/java4qa/DumbTimeConverter.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java" afterPath="$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/CollinearCheck.class" afterPath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/CollinearCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/SmartTimeConverter.class" afterPath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/SmartTimeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/TrianglePerimeter.class" afterPath="$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/TrianglePerimeter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java" afterPath="$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/java4qa/LineCrosser.java" afterPath="$PROJECT_DIR$/src/org/java4qa/LineCrosser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/java4qa/SmartTimeConverter.java" afterPath="$PROJECT_DIR$/src/org/java4qa/SmartTimeConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/java4qa/TriangleArea.java" afterPath="$PROJECT_DIR$/src/org/java4qa/TriangleArea.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java" afterPath="$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyExerciseProgram1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
+      <file leaf-file-name="LineCrosser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/java4qa/LineCrosser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="578">
+              <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,11 +44,85 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DumbTimeConverter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/DumbTimeConverter.java">
+      <file leaf-file-name="Looping1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/statements/looping/Looping1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeapYear.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/statements/branching/LeapYear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondLargest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/statements/branching/SecondLargest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PolynomRoots.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/statements/branching/PolynomRoots.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-258">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneBook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/statements/branching/PhoneBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="68" lean-forward="false" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrianglePerimeter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyExerciseProgram1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriangleArea.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/java4qa/TriangleArea.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,89 +133,8 @@
       <file leaf-file-name="SmartTimeConverter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/java4qa/SmartTimeConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineCrosser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/LineCrosser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TriangleArea.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/TriangleArea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrianglePerimeter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollinearCheck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26928">
-              <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-              <folding>
-                <element signature="e#64310#64311#0" expanded="true" />
-                <element signature="e#64355#64356#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrictMath.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/StrictMath.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20825">
-              <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39610">
-              <caret line="2412" column="0" lean-forward="false" selection-start-line="2412" selection-start-column="0" selection-end-line="2412" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -136,6 +149,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -144,15 +160,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java" />
         <option value="$PROJECT_DIR$/src/org/java4qa/HomeTask1.java" />
-        <option value="$PROJECT_DIR$/src/org/java4qa/TriangleArea.java" />
-        <option value="$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java" />
-        <option value="$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java" />
-        <option value="$PROJECT_DIR$/src/org/java4qa/LineCrosser.java" />
         <option value="$PROJECT_DIR$/src/org/java4qa/TimeConverter.java" />
         <option value="$PROJECT_DIR$/src/org/java4qa/TimeConverter2.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Branching4.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Looping1.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Branching5.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Branching1.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Branching2.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa/LineCrosser.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa/TriangleArea.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java" />
         <option value="$PROJECT_DIR$/src/org/java4qa/SmartTimeConverter.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/Branching3.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/SignumFunction.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/LeapYear.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/PolynomalRoots.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/SecondLargest.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/PhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/branching/SignumFunction.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qa2/looping/Looping1.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/branching/LeapYear.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/branching/PolynomRoots.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/branching/SignumFunction.java" />
+        <option value="$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/branching/SecondLargest.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/branching/PhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/org/statements/looping/Looping1.java" />
       </list>
     </option>
   </component>
@@ -163,11 +199,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1866" />
-    <option name="y" value="297" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="68" />
+    <option name="y" value="76" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -183,7 +220,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,7 +240,44 @@
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="java4qa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="java4qabasics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+              <item name="branching" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+              <item name="looping" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -210,9 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,6 +300,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.java4qa2" />
       <recent name="org.java4qa" />
     </key>
   </component>
@@ -241,15 +316,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmartTimeConverter">
-    <configuration name="CollinearCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.java4qa.*" />
+          <option name="PATTERN" value="org.statements.branching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.java4qa.CollinearCheck" />
+      <option name="MAIN_CLASS_NAME" value="org.statements.branching.LeapYear" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -261,14 +336,14 @@
       <module name="JavaCourse" />
       <envs />
     </configuration>
-    <configuration name="LineCrosser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.java4qa.*" />
+          <option name="PATTERN" value="org.statements.branching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.java4qa.LineCrosser" />
+      <option name="MAIN_CLASS_NAME" value="org.statements.branching.PhoneBook" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -280,14 +355,14 @@
       <module name="JavaCourse" />
       <envs />
     </configuration>
-    <configuration name="SmartTimeConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PolynomRoots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.java4qa.*" />
+          <option name="PATTERN" value="org.statements.branching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.java4qa.SmartTimeConverter" />
+      <option name="MAIN_CLASS_NAME" value="org.statements.branching.PolynomRoots" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -299,14 +374,14 @@
       <module name="JavaCourse" />
       <envs />
     </configuration>
-    <configuration name="TriangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SignumFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.java4qa.*" />
+          <option name="PATTERN" value="org.statements.branching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="org.java4qa.TriangleArea" />
+      <option name="MAIN_CLASS_NAME" value="org.statements.branching.SignumFunction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -321,7 +396,7 @@
     <configuration name="TrianglePerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="org.java4qa.*" />
+          <option name="PATTERN" value="org.java4qabasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,19 +493,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LineCrosser" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TriangleArea" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TrianglePerimeter" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CollinearCheck" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SmartTimeConverter" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SignumFunction" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LeapYear" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PhoneBook" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TrianglePerimeter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PolynomRoots" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SmartTimeConverter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CollinearCheck" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TrianglePerimeter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TriangleArea" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LineCrosser" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PhoneBook" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PolynomRoots" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LeapYear" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SignumFunction" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TrianglePerimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -453,12 +528,17 @@
       <workItem from="1525208427297" duration="38000" />
       <workItem from="1525247245583" duration="2428000" />
       <workItem from="1525675721208" duration="911000" />
-      <workItem from="1525859458518" duration="250000" />
+      <workItem from="1525859458518" duration="840000" />
+      <workItem from="1525860774662" duration="4725000" />
+      <workItem from="1525868557658" duration="1353000" />
+      <workItem from="1525870629770" duration="985000" />
+      <workItem from="1525874447738" duration="9000" />
+      <workItem from="1525891895670" duration="4330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12864000" />
+    <option name="totallyTimeSpent" value="24856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,34 +550,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.123608015" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39130434" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3062361" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19187145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25426438" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -508,127 +588,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second home task init plus package refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="second home task init plus package refactor" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26928">
-          <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="true" />
-            <element signature="e#64355#64356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20825">
-          <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39610">
-          <caret line="2412" column="0" lean-forward="false" selection-start-line="2412" selection-start-column="0" selection-end-line="2412" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/DumbTimeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/LineCrosser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TriangleArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26928">
-          <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="true" />
-            <element signature="e#64355#64356#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20825">
-          <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39610">
@@ -654,13 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
+    <entry file="file://$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,10 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28407">
           <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="true" />
-            <element signature="e#64355#64356#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20825">
           <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,13 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
+    <entry file="file://$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,9 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,10 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28407">
           <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="true" />
-            <element signature="e#64355#64356#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20825">
           <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,13 +782,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
+    <entry file="file://$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,10 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26928">
           <caret line="1671" column="29" lean-forward="false" selection-start-line="1671" selection-start-column="29" selection-end-line="1671" selection-end-column="29" />
-          <folding>
-            <element signature="e#64310#64311#0" expanded="true" />
-            <element signature="e#64355#64356#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,24 +846,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20825">
           <caret line="1313" column="32" lean-forward="false" selection-start-line="1313" selection-start-column="32" selection-end-line="1313" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/DumbTimeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/SmartTimeConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/TriangleArea.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/TrianglePerimeter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/LineCrosser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/JavaCourse/org/java4qa/CollinearCheck.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/java4qa/DumbTimeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/LineCrosser.java">
+    <entry file="file://$PROJECT_DIR$/src/org/statements/branching/SignumFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/MyExerciseProgram1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,28 +911,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/java4qa/CollinearCheck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="39" lean-forward="false" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
+    <entry file="file://$PROJECT_DIR$/src/org/java4qa/LineCrosser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TriangleArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        <state relative-caret-position="578">
+          <caret line="34" column="66" lean-forward="false" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -969,19 +931,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/java4qa/SmartTimeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/java4qa/DumbTimeConverter.java">
+    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TriangleArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/java4qa/TrianglePerimeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/java4qabasics/MyExerciseProgram1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/statements/branching/LeapYear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/statements/branching/PolynomRoots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/statements/branching/SecondLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/statements/branching/PhoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="68" lean-forward="false" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/statements/looping/Looping1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

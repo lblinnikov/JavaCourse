@@ -8,7 +8,7 @@ import static java.lang.Math.sqrt;
 public class TriangleArea {
     public static void main(String[] args){
 
-        // TODO Reads lengths of all three sides of a triangle and writes out the triangle area. Hint: use the Heron’s formula.
+        // Reads lengths of all three sides of a triangle and writes out the triangle area. Hint: use the Heron’s formula.
 
         Scanner userInput = new Scanner(System.in);
         userInput.useLocale(Locale.US);
@@ -22,7 +22,7 @@ public class TriangleArea {
         System.out.println("Enter length of THIRD triangle side: ");
         double c = userInput.nextDouble();
 
-        // TODO catch if not a triangle
+        // TODO catch if not a triangle with branching e.g. if a+b<=c
 
         // Calculation block
 

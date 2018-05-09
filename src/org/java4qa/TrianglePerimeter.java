@@ -3,13 +3,12 @@ package org.java4qa;
 import java.util.Locale;
 import java.util.Scanner;
 
-import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
 public class TrianglePerimeter {
     public static void main(String[] args){
 
-        // TODO Reads lengths of legs of a right-angled triangle and writes out a perimeter of the triangle.
+        // Reads lengths of legs of a right-angled triangle and writes out a perimeter of the triangle.
 
         Scanner userInput = new Scanner(System.in);
         userInput.useLocale(Locale.US);
@@ -22,7 +21,9 @@ public class TrianglePerimeter {
 
         // Calculation block
 
-        double hypotenuse = sqrt(pow(leg1,2) + pow(leg2,2));
+        // Fixed remove pow()
+
+        double hypotenuse = sqrt(leg1*leg1 + leg2*leg2);
 
         double perimeter = leg1 + leg2 + hypotenuse;
 

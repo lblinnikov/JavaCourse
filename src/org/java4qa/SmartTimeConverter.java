@@ -1,12 +1,11 @@
 package org.java4qa;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class SmartTimeConverter {
     public static void main(String[] args){
 
-        // TODO Reads a length of a time period as a number of seconds and writes out how many days, hours, minutes and seconds it represents.
+        // Reads a length of a time period as a number of seconds and writes out how many days, hours, minutes and seconds it represents.
 
         Scanner userInput = new Scanner(System.in);
 

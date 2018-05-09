@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CollinearCheck {
     public static void main(String[] args){
 
-        // TODO Reads coordinates of three points in a plane and writes out whether the points are all positioned on a single line.
+        // Reads coordinates of three points in a plane and writes out whether the points are all positioned on a single line.
 
         Scanner userInput = new Scanner(System.in);
         userInput.useLocale(Locale.US);
@@ -38,6 +38,8 @@ public class CollinearCheck {
 
         double area = (x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))/2;
         boolean collinearByZeroArea = area == 0;
+
+        // TODO fix comparing double to zero ?
 
 
         System.out.println("It's " + collinear + " that points are one one line.");

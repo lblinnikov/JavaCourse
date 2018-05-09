@@ -1,8 +1,7 @@
-package org.java4qa;
+package org.java4qabasics;
 
 import java.util.Locale;
 import java.util.Scanner;
-
 
 public class MyExerciseProgram1 {
     public static void main(String[] args){
@@ -13,13 +12,9 @@ public class MyExerciseProgram1 {
 
         double base = reader.nextDouble();
 
-
-
         System.out.print("Enter percentage: ");
 
         double percent = reader.nextDouble();
-
-
 
         double value =  percent / 100.0 * base;
 
