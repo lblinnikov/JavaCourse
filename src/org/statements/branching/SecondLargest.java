@@ -7,14 +7,14 @@ public class SecondLargest {
 
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Please input four floating point numbers entering each number + line break (ENTER): ");
+        System.out.println("Please input four integers entering each + line break (ENTER): ");
 
         int a = userInput.nextInt();
         int b = userInput.nextInt();
         int c = userInput.nextInt();
         int d = userInput.nextInt();
 
-        int subsitute;
+        int substitute;
         int secondLargest;
 
         // TODO find second largest
@@ -24,23 +24,23 @@ public class SecondLargest {
         // compare first pair
         // gets bigger in 1st position
         if (a < b) {
-            subsitute = a;
+            substitute = a;
             a = b;
-            b = subsitute;
+            b = substitute;
         }
         // compare last pair
         // gets bigger in 3rd position
         if (c < d) {
-            subsitute = c;
+            substitute = c;
             c = d;
-            d = subsitute;
+            d = substitute;
         }
         // compare bigger candidate from first pair with bigger candidate from last pair
         // gets biggest into 1st position
         if (a < c) {
-            subsitute = a;
+            substitute = a;
             a = c;
-            c = subsitute;
+            c = substitute;
         }
 
         /* here we compare only 2nd, 3rd, 4th because 1st position is reserved with biggest
@@ -50,16 +50,16 @@ public class SecondLargest {
         // compare 2nd and 3rd
         // gets bigger to 2nd position
         if (b < c) {
-            subsitute = b;
+            substitute = b;
             b = c;
-            c = subsitute;
+            c = substitute;
         }
         // compare bigger candidate with last element
         // gets biggest from this trio into 2nd position (b)
         if (b < d) {
-            subsitute = b;
+            substitute = b;
             b = d;
-            d = subsitute;
+            d = substitute;
         }
 
         secondLargest = b;
