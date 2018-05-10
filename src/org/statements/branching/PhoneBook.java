@@ -32,8 +32,7 @@ public class PhoneBook {
                 else if (regCode.equals("46")) region = "Pardubice";
                 else if (regCode.equals("48")) region = "Liberec";
                 else if (regCode.equals("49")) region = "Hradec Kralove";
-                else if (regCode.equals("51") || regCode.equals("53") || regCode.equals("54"))
-                    region = "South Moravian";
+                else if (regCode.equals("51") || regCode.equals("53") || regCode.equals("54")) region = "South Moravian";
                 else if (regCode.equals("55") || regCode.equals("59")) region = "Moravian-Silesian";
                 else if (regCode.equals("56")) region = "Vysoсina";
                 else if (regCode.equals("57")) region = "Zlin";
