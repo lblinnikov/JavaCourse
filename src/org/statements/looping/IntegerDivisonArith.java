@@ -2,12 +2,12 @@ package org.statements.looping;
 
 import java.util.Scanner;
 
-public class Looping1 {
+public class IntegerDivisonArith {
     public static void main(String[] args) {
 
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Please input two integers: ");
+        System.out.println("Please input two positive integers: ");
 
         int a = userInput.nextInt();
         int b = userInput.nextInt();
