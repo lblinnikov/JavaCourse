@@ -17,8 +17,6 @@ public class SecondLargest {
         int substitute;
         int secondLargest;
 
-        // TODO find second largest
-
         // Comparing with each other and assigning values to largest/secondLargest variable?
 
         // compare first pair

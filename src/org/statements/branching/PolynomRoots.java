@@ -25,8 +25,6 @@ public class PolynomRoots {
         double x1;
         double x2;
 
-        // TODO find roots
-
         // D = b^2 - 4ac
 
         discriminant = (b * b) - 4 - (a * c);

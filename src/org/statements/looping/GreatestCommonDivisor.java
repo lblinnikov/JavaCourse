@@ -13,15 +13,13 @@ public class GreatestCommonDivisor {
         int n = userInput.nextInt();
 
         int GCD; // greatest common divisor
-        int sub; // substitute
 
         // Potentially GCD is smallest of both ints even if m=n
 
         // if m > n
         // switch them so m < n
-        // TODO define swap var in swap block
         if (m > n) {
-            sub = m;
+            int sub = m; // swap variable
             m = n;
             n = sub;
         }
