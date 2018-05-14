@@ -3,7 +3,7 @@ package org.arrays.hometask;
 import java.util.Scanner;
 
 public class Arrays3 {
-    public static void main(String[] args) {
+    public static void main(String... arg) {
 
         Scanner userInput = new Scanner(System.in);
 
