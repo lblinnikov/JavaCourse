@@ -2,12 +2,16 @@ package org.arrays.hometask;
 
 import java.util.Scanner;
 
-public class Arrays2 {
+public class Arrays3 {
     public static void main(String[] args) {
 
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Please input count of Integer array elements: ");
+        System.out.println("Please input length K: ");
+
+        int length = userInput.nextInt();
+
+        System.out.println("Please input count N of Integer array elements: ");
 
         int arrSize = userInput.nextInt();
 
@@ -21,6 +25,7 @@ public class Arrays2 {
         }
 
         // manipulations
+        //
         for (int i=(arrSize-1);i>=0;i--){
             System.out.println(intArr[i]);
         }
