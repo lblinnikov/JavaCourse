@@ -24,20 +24,16 @@ public class Arrays3 {
             intArr[i] = userInput.nextInt();
         }
 
-        // create subset array with length K
-        int[] lengthSub;
-        lengthSub = new int[length];
-
         double avg;
         int sum;
 
         for (int i=0;i<(arrSize-length+1);i++){
-            System.arraycopy(intArr, i, lengthSub, 0, length);
+            System.arraycopy(intArr, i, intArr, 0, length);
             sum = 0;
             for (int j=0;j<length;j++) {
-                sum = sum+lengthSub[j];
+                sum = sum+intArr[j];
             }
-            avg = sum/(length+0.0);
+            avg = (double)sum/length;
             System.out.println("#" + (i + 1) + " set rolling average: " + avg);
         }
 
