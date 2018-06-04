@@ -30,6 +30,7 @@ class Distance {
             this.millimeters = (int)(value*25.4);
             this.inches = value;
         }
+        else System.out.println("Incorrect units!");
 
     }
 

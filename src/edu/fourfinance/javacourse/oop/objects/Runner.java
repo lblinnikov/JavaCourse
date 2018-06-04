@@ -13,7 +13,6 @@ public class Runner {
         animals[4] = new Animal("sheep");
         animals[5] = new Animal("fish");
 
-        System.out.println("-----------------BEGIN-----------------");
 
         for (int i = 0; i < animals.length; i++) {
             animals[i].sound();
@@ -22,12 +21,13 @@ public class Runner {
     }
 
     private static void PostalAddressTest() {
+        System.out.println("---------------------------------------");
+
         PostalAddress address = new PostalAddress("Praha", "Zborovska", "1172/56", "14", "150 00");
         String ADDRESS_EU = address.asEuroStyle();
         String ADDRESS_UK = address.asUKStyle();
         String ADDRESS_RU = address.asRussianStyle();
 
-        System.out.println("---------------------------------------");
 
         System.out.println("EU standard: " + ADDRESS_EU);
         System.out.println("UK standard: " + ADDRESS_UK);
@@ -35,8 +35,12 @@ public class Runner {
     }
 
     private static void DistanceTest() {
+        System.out.println("---------------------------------------");
+
         Distance mmDist = new Distance(254, "mm");
         Distance inDist = new Distance(10, "in");
+
+        //Distance kmDist = new Distance(100, "km"); // covered
 
         int dist1 = mmDist.getMillimeters();
         double dist2 = mmDist.getInches();
@@ -44,7 +48,6 @@ public class Runner {
         int dist3 = inDist.getMillimeters();
         double dist4 = inDist.getInches();
 
-        System.out.println("---------------------------------------");
 
 
         System.out.println(dist1+ " mm");
@@ -56,6 +59,8 @@ public class Runner {
     }
 
     public static void main(String... arg) {
+
+        System.out.println("-----------------BEGIN-----------------");
 
         AnimalsTest();
 
