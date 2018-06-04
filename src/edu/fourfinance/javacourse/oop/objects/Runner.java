@@ -30,8 +30,8 @@ public class Runner {
     }
 
     private static void DistanceTest() {
-        Distance mmDist = new Distance(25, "mm");
-        Distance inDist = new Distance(1, "in");
+        Distance mmDist = new Distance(250, "mm");
+        Distance inDist = new Distance(10, "in");
 
         int dist1 = mmDist.getMillimeters();
         double dist2 = mmDist.getInches();
@@ -49,8 +49,8 @@ public class Runner {
 
     public static void main(String... arg) {
 
-        //AnimalsTest();
-        //PostalAddressTest();
+        AnimalsTest();
+        PostalAddressTest();
         DistanceTest();
 
     }
