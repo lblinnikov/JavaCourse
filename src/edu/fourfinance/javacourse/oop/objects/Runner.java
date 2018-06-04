@@ -30,27 +30,27 @@ public class Runner {
     }
 
     private static void DistanceTest() {
-        Distance mmDistance = new Distance(100, "mm");
-        Distance inDistance = new Distance(4, "in");
+        Distance mmDist = new Distance(25, "mm");
+        Distance inDist = new Distance(1, "in");
 
-        double distance1 =  mmDistance.getInches();
-        int distance2 =  mmDistance.getMillimeters();
+        int dist1 = mmDist.getMillimeters();
+        double dist2 = mmDist.getInches();
 
-        double distance3 = inDistance.getInches();
-        int distance4 = inDistance.getMillimeters();
+        int dist3 = inDist.getMillimeters();
+        double dist4 = inDist.getInches();
 
-        System.out.println(distance1);
-        System.out.println(distance2);
+        System.out.println(dist1);
+        System.out.println(dist2);
+        System.out.println(dist3);
+        System.out.println(dist4);
 
-        System.out.println(distance3);
-        System.out.println(distance4);
 
     }
 
     public static void main(String... arg) {
 
-        AnimalsTest();
-        PostalAddressTest();
+        //AnimalsTest();
+        //PostalAddressTest();
         DistanceTest();
 
     }
