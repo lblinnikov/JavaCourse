@@ -19,8 +19,6 @@ public class PostalAddress {
     private String flat;
     private String postalCode;
 
-    private String fullAddress;
-
     PostalAddress(String city, String street, String houseNumber, String flat, String postalCode) {
         this.city = city;
         this.street = street;
@@ -30,13 +28,13 @@ public class PostalAddress {
     }
 
     public String[] getAddress() {
-        String addresses[] = new String[5];
-        addresses[0] = city;
-        addresses[1] = street;
-        addresses[2] = houseNumber;
-        addresses[3] = flat;
-        addresses[4] = postalCode;
-        return addresses;
+        String address[] = new String[5];
+        address[0] = city;
+        address[1] = street;
+        address[2] = houseNumber;
+        address[3] = flat;
+        address[4] = postalCode;
+        return address;
     }
 
     public void setAddress(String city) {
@@ -53,8 +51,7 @@ public class PostalAddress {
      */
 
     String asEuroStyle() {
-        fullAddress = street+", "+houseNumber+", "+city;
-        return fullAddress;
+        return street+", "+houseNumber+", "+city;
     }
 
     /**
@@ -63,8 +60,7 @@ public class PostalAddress {
      */
 
     String asUKStyle() {
-        fullAddress = houseNumber+", "+street+", "+city;
-        return fullAddress;
+        return houseNumber+", "+street+", "+city;
     }
 
     /**
@@ -73,8 +69,7 @@ public class PostalAddress {
      */
 
     String asRussianStyle() {
-        fullAddress = city+", "+street+", "+houseNumber;
-        return fullAddress;
+        return city+", "+street+", "+houseNumber;
     }
 
 }
