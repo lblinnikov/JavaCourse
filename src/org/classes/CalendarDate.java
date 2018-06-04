@@ -72,7 +72,7 @@ public class CalendarDate {
     }
 
     public String asText() {
-        return dayInMonth + "." + month + "." + year;
+        return "Output: \n Days in month: " + dayInMonth + " month: " + month + " year: " + year;
     }
 
 }
