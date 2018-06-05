@@ -12,32 +12,15 @@ Loop over the array and call the sound() method on each element.
 class Animal {
 
     private String sound;
+    private String animal;
 
-    Animal(String animal) {
-        switch (animal) {
-            case ("dog"):
-                this.sound = "Woof";
-                break;
-            case "cat":
-                this.sound = "Meow";
-                break;
-            case "cow":
-                this.sound = "Moo";
-                break;
-            case "pig":
-                this.sound = "Oink";
-                break;
-            case "sheep":
-                this.sound = "Baa";
-                break;
-            default:
-                sound = "*awkward silence*";
-                break;
-        }
+    Animal(String animal, String sound) {
+        this.sound = sound;
+        this.animal = animal;
     }
 
     void sound() {
-        System.out.println(sound);
+        System.out.println(animal + " says: \"" + sound + "\"!");
     }
 
 }

@@ -6,12 +6,12 @@ public class Runner {
 
         Animal[] animals = new Animal[6];
 
-        animals[0] = new Animal("dog");
-        animals[1] = new Animal("cat");
-        animals[2] = new Animal("cow");
-        animals[3] = new Animal("pig");
-        animals[4] = new Animal("sheep");
-        animals[5] = new Animal("fish");
+        animals[0] = new Animal("dog", "Woof");
+        animals[1] = new Animal("cat","Meow");
+        animals[2] = new Animal("cow","Moo");
+        animals[3] = new Animal("pig","Oink");
+        animals[4] = new Animal("sheep","Baa");
+        animals[5] = new Animal("fish","*silence*");
 
 
         for (int i = 0; i < animals.length; i++) {
