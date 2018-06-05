@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java" afterPath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java" afterPath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" afterPath="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,12 +51,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostalAddress.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostalAddress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="493">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1477#1478#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,27 +67,23 @@
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,10 +211,10 @@
         <option value="$PROJECT_DIR$/src/org/classes/SampleClass.java" />
         <option value="$PROJECT_DIR$/src/org/classes/Runner.java" />
         <option value="$PROJECT_DIR$/src/org/classes/CalendarDate.java" />
-        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" />
         <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Animal.java" />
-        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java" />
+        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" />
         <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java" />
+        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java" />
       </list>
     </option>
   </component>
@@ -559,7 +559,7 @@
       <workItem from="1528128612352" duration="8574000" />
       <workItem from="1528144946891" duration="654000" />
       <workItem from="1528189937392" duration="39000" />
-      <workItem from="1528190968485" duration="1132000" />
+      <workItem from="1528190968485" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="second home task init plus package refactor">
       <created>1525896245022</created>
@@ -750,11 +750,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528191591108</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="array size fix">
+      <created>1528192115349</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1528192115349</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87939000" />
+    <option name="totallyTimeSpent" value="88397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,7 +784,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45652175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45652175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289225" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26280624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -853,7 +860,8 @@
     <MESSAGE value="remove unused class fields" />
     <MESSAGE value="runner class update" />
     <MESSAGE value="fix animal class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix animal class" />
+    <MESSAGE value="array size fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="array size fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1179,36 +1187,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>

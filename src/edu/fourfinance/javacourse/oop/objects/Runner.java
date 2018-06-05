@@ -13,7 +13,6 @@ public class Runner {
         animals[4] = new Animal("sheep","Baa");
         animals[5] = new Animal("fish","*silence*");
 
-
         for (int i = 0; i < animals.length; i++) {
             animals[i].sound();
         }
@@ -28,7 +27,6 @@ public class Runner {
         String addressUk = address.asUKStyle();
         String addressRu = address.asRussianStyle();
 
-
         System.out.println("EU standard: " + addressEu);
         System.out.println("UK standard: " + addressUk);
         System.out.println("ГОСТ: " + addressRu);
@@ -37,10 +35,8 @@ public class Runner {
     private static void DistanceTest() {
         System.out.println("---------------------------------------");
 
-        Distance mmDist = new Distance(254, "mm");
-        Distance inDist = new Distance(10, "in");
-
-        //Distance kmDist = new Distance(100, "km"); // covered
+        Distance mmDist = new Distance(254);
+        Distance inDist = new Distance(10.0);
 
         int dist1 = mmDist.getMillimeters();
         double dist2 = mmDist.getInches();
@@ -48,13 +44,10 @@ public class Runner {
         int dist3 = inDist.getMillimeters();
         double dist4 = inDist.getInches();
 
-
-
         System.out.println(dist1+ " mm");
         System.out.println(dist2+ " in");
         System.out.println(dist3+ " mm");
         System.out.println(dist4+ " in");
-
 
     }
 

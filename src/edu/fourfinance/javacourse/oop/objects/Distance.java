@@ -10,28 +10,20 @@ Then create two getters to obtain a kept size in particular units.
  */
 
 class Distance {
-    private int value;
-    private String units;
 
     private int millimeters;
     private double inches;
 
     // 1 in = 25.4 mm
 
-    Distance(int value, String units) {
-        this.value = value;
-        this.units = units;
+    Distance(int millimeters) {
+        this.millimeters = millimeters;
+        this.inches = millimeters/25.4;
+    }
 
-        if (units.equals("mm")) {
-            this.millimeters = value;
-            this.inches = value/25.4;
-        }
-        else if (units.equals("in")) {
-            this.millimeters = (int)(value*25.4);
-            this.inches = value;
-        }
-        else System.out.println("Incorrect units!");
-
+    Distance(double inches) {
+        this.inches = inches;
+        this.millimeters = (int)(25.4*inches);
     }
 
     int getMillimeters() {

@@ -23,9 +23,11 @@ public class PostalAddress {
 
     public String[] getAddress() {
         String[] address = new String[3];
+
         address[0] = city;
         address[1] = street;
         address[2] = houseNumber;
+
         return address;
     }
 
