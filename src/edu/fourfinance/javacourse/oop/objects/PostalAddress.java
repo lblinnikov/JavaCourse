@@ -15,35 +15,25 @@ public class PostalAddress {
     private String street;
     private String houseNumber;
 
-    // not using those now
-    private String flat;
-    private String postalCode;
-
-    PostalAddress(String city, String street, String houseNumber, String flat, String postalCode) {
+    PostalAddress(String city, String street, String houseNumber) {
         this.city = city;
         this.street = street;
         this.houseNumber = houseNumber;
-        this.flat = flat;
-        this.postalCode = postalCode;
     }
 
     public String[] getAddress() {
-        String address[] = new String[5];
+        String[] address = new String[5];
         address[0] = city;
         address[1] = street;
         address[2] = houseNumber;
-        address[3] = flat;
-        address[4] = postalCode;
         return address;
     }
 
     // is this necessary if we have a constructor? Need to create separate 5 setters?
-    public void setAddress(String city, String street, String houseNumber, String flat, String postalCode) {
+    public void setAddress(String city, String street, String houseNumber) {
         this.city = city;
         this.street = street;
         this.houseNumber = houseNumber;
-        this.flat = flat;
-        this.postalCode = postalCode;
     }
 
     /**
