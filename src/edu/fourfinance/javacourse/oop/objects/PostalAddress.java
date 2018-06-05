@@ -29,7 +29,7 @@ public class PostalAddress {
         return address;
     }
 
-    // is this necessary if we have a constructor? Need to create separate 5 setters?
+    // is this necessary if we have a constructor? Need to create separate 3 setters?
     public void setAddress(String city, String street, String houseNumber) {
         this.city = city;
         this.street = street;

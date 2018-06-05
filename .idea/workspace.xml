@@ -47,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostalAddress.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostalAddress.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="323">
+              <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="81" lean-forward="false" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -201,8 +201,8 @@
         <option value="$PROJECT_DIR$/src/org/classes/CalendarDate.java" />
         <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Animal.java" />
         <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Distance.java" />
-        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" />
         <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java" />
+        <option value="$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java" />
       </list>
     </option>
   </component>
@@ -547,7 +547,7 @@
       <workItem from="1528128612352" duration="8574000" />
       <workItem from="1528144946891" duration="654000" />
       <workItem from="1528189937392" duration="39000" />
-      <workItem from="1528190968485" duration="196000" />
+      <workItem from="1528190968485" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="second home task init plus package refactor">
       <created>1525896245022</created>
@@ -717,11 +717,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528144999503</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="remove unused class fields">
+      <created>1528191208050</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1528191208050</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87003000" />
+    <option name="totallyTimeSpent" value="87097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,7 +824,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="objects" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="remove unused class fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove unused class fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1148,18 +1156,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/PostalAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/fourfinance/javacourse/oop/objects/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="25" column="81" lean-forward="false" selection-start-line="25" selection-start-column="81" selection-end-line="25" selection-end-column="81" />
           <folding />
         </state>
       </provider>

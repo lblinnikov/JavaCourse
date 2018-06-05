@@ -23,15 +23,15 @@ public class Runner {
     private static void PostalAddressTest() {
         System.out.println("---------------------------------------");
 
-        PostalAddress address = new PostalAddress("Praha", "Zborovska", "1172/56", "14", "150 00");
-        String ADDRESS_EU = address.asEuroStyle();
-        String ADDRESS_UK = address.asUKStyle();
-        String ADDRESS_RU = address.asRussianStyle();
+        PostalAddress address = new PostalAddress("Praha", "Zborovska", "1172/56");
+        String addressEu = address.asEuroStyle();
+        String addressUk = address.asUKStyle();
+        String addressRu = address.asRussianStyle();
 
 
-        System.out.println("EU standard: " + ADDRESS_EU);
-        System.out.println("UK standard: " + ADDRESS_UK);
-        System.out.println("ГОСТ: " + ADDRESS_RU);
+        System.out.println("EU standard: " + addressEu);
+        System.out.println("UK standard: " + addressUk);
+        System.out.println("ГОСТ: " + addressRu);
     }
 
     private static void DistanceTest() {
