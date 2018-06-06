@@ -16,7 +16,7 @@ public class Run {
                 "456Z",
                 2580,
                 2500,
-                "",
+                "B",
                 2,
                 2399,
                 200,
@@ -26,7 +26,36 @@ public class Run {
                 ""
                 );
 
-        System.out.println(myNewCar.getLicencePlate());
+        TruckCar myTruckCar = new TruckCar(
+                "BL2991",
+                "1992-03-02",
+                "MERCEDES BENZ",
+                "408D",
+                "EEO38G788T69DT359F7J8",
+                "Levs Blinnikovs",
+                "Levs Blinnikovs",
+                "Truck",
+                "",
+                "",
+                7680,
+                4600,
+                "C",
+                1,
+                3999,
+                243,
+                "Diesel",
+                "",
+                "2",
+                "0"
+        );
+
+        System.out.println(
+                myNewCar.getLicencePlate()
+        );
+
+        System.out.println(
+                myTruckCar.getMaxPower()
+        );
 
     }
 }
