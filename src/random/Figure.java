@@ -22,9 +22,9 @@ class AnyFigure implements Figure {
 
         List<Integer> sides = new ArrayList<>();
 
-            sides.add(1);
-            sides.add(-1);
-            sides.add(0);
+            sides.add(100);
+            sides.add(100);
+            sides.add(100);
 
         int result = abstractFigure.getPerimeter(sides);
 
