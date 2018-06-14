@@ -3,6 +3,7 @@ package edu.fourfinance.javacourse.oop.objects.methods;
 class Power {
 
     static int intPower(int x, int y){
+        if(y == 0 && x == 0) return -1; //undefined
         if(x == 0) return 0;
         if(y == 0) return 1;
         int result = 1;
