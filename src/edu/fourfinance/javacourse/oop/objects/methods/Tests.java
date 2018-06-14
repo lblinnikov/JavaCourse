@@ -4,6 +4,7 @@ package edu.fourfinance.javacourse.oop.objects.methods;
 import static edu.fourfinance.javacourse.oop.objects.methods.Palindrome.isPalindrome;
 import static edu.fourfinance.javacourse.oop.objects.methods.Palindrome.isPalindromeRecursive;
 import static edu.fourfinance.javacourse.oop.objects.methods.Power.intPower;
+import static edu.fourfinance.javacourse.oop.objects.methods.Power.intPowerRecursive;
 
 class Tests {
 
@@ -58,6 +59,33 @@ class Tests {
         System.out.println(
                 intPower(0,0)
         );
+
+        System.out.println("-------RECURSIVE-------");
+
+        System.out.println(
+                intPowerRecursive(2,2)
+        );
+
+        System.out.println(
+                intPowerRecursive(2,1)
+        );
+
+        System.out.println(
+                intPowerRecursive(2,0)
+        );
+
+        System.out.println(
+                intPowerRecursive(1,0)
+        );
+
+        System.out.println(
+                intPowerRecursive(0,1)
+        );
+
+        System.out.println(
+                intPowerRecursive(0,0)
+        );
+
     }
 
     private static void hanoiTest(){
