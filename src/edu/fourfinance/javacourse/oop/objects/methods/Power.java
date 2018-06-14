@@ -6,10 +6,7 @@ class Power {
         if(x == 0) return 0;
         if(y == 0) return 1;
         int result = 1;
-        for (int i = 1; i <= y; i++) {
-            result = result * x;
-        }
-
+        for (int i = 1; i <= y; i++) result = result * x;
         return result;
     }
 
