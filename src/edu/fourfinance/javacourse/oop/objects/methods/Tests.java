@@ -1,6 +1,7 @@
 package edu.fourfinance.javacourse.oop.objects.methods;
 
 
+import static edu.fourfinance.javacourse.oop.objects.methods.Hanoi.hanoiTower;
 import static edu.fourfinance.javacourse.oop.objects.methods.Palindrome.isPalindrome;
 import static edu.fourfinance.javacourse.oop.objects.methods.Palindrome.isPalindromeRecursive;
 import static edu.fourfinance.javacourse.oop.objects.methods.Power.intPower;
@@ -89,7 +90,9 @@ class Tests {
     }
 
     private static void hanoiTest(){
-
+        System.out.println("-------HANOI-------");
+        int n = 4;
+        hanoiTower(n, 'A', 'C', 'B');
     }
 
     public static void main(String... arg) {
