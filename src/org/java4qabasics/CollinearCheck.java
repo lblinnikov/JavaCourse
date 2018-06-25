@@ -1,4 +1,4 @@
-package org.java4qa;
+package org.java4qabasics;
 
 import java.util.Locale;
 import java.util.Scanner;

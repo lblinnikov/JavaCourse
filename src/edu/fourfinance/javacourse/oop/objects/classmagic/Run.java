@@ -10,7 +10,7 @@ public class Run {
         Bird chicken = new RunningBird(4.0, "everything");
         Bird ostrich = new RunningBird(10.0, "meat");
 
-        Bird penguin = new Penguin(0.2, 0.3);
+        Penguin penguin = new Penguin(0.2, 0.3);
 
     }
 }

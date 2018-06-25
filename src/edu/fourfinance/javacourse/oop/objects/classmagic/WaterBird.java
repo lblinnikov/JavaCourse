@@ -11,7 +11,7 @@ public class WaterBird extends Bird {
         this.takeOffLength = takeOffLength;
     }
 
-    public double getWaterSpeed(double distace){
+    public double getWaterSpeed(double distance){
         return swimSpeed;
     }
 
