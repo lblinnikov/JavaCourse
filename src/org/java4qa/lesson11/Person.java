@@ -10,7 +10,14 @@ public class Person implements
 
     public String firstName;
     public String lastName;
-    public Date dateOfBirth;
+    public Date dateOfBirth; // how to use it in yearsSince function?
+    // Isn't it better to pass Date instead of triplet of day, month, year?
+    public Date dateOfDeath;
+
+    public int dayOfBirth;
+    public int monthOfBirth;
+    public int yearOfBirth;
+
     public BigInteger personalId;
 
 //    public Gender gender;
@@ -27,15 +34,15 @@ public class Person implements
     }
 
     public boolean isChild() {
-        return false;
+        return yearsSince(dayOfBirth, monthOfBirth, yearOfBirth) < 12;
     }
 
     public boolean isUnderAge() {
-        return false;
+        return yearsSince(dayOfBirth, monthOfBirth, yearOfBirth) < 18;
     }
 
     public boolean isAlive() {
-        return false;
+        return dateOfDeath == null;
     }
 
     public void changeFirstName(String name) {
