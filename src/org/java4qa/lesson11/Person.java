@@ -23,7 +23,17 @@ public class Person implements
 
     public BigInteger personalId;
 
-//    public Gender gender;
+    public Person(Date dateOfDeath, String firstName, String lastName, int dayOfBirth, int monthOfBirth, int yearOfBirth, boolean isFemale) {
+        this.dateOfDeath = dateOfDeath;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dayOfBirth = dayOfBirth;
+        this.monthOfBirth = monthOfBirth;
+        this.yearOfBirth = yearOfBirth;
+        this.isFemale = isFemale;
+    }
+
+    //    public Gender gender;
 
     public static int yearsSince(int day, int month, int year) {
         LocalDate dateOfBirth = LocalDate.of(year, month, day);
