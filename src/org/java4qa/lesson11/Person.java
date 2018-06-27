@@ -4,6 +4,8 @@ import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
+import java.util.Random;
+import java.util.stream.IntStream;
 
 public class Person implements
         Comparable<Person>, WithSex, NameHandler, LegalStatusAdvisor {
@@ -21,7 +23,7 @@ public class Person implements
 
     public boolean isFemale;
 
-    public BigInteger personalId;
+    public String personalId;
 
     public Person(Date dateOfDeath, String firstName, String lastName, int dayOfBirth, int monthOfBirth, int yearOfBirth, boolean isFemale) {
         this.dateOfDeath = dateOfDeath;
@@ -31,6 +33,7 @@ public class Person implements
         this.monthOfBirth = monthOfBirth;
         this.yearOfBirth = yearOfBirth;
         this.isFemale = isFemale;
+        this.personalId = generatePersonalId();
     }
 
     //    public Gender gender;
@@ -41,6 +44,27 @@ public class Person implements
         return diff.getYears();
     }
 
+    public String generatePersonalId() {
+        String dd;
+        String mm;
+        String yy = Integer.toString(yearOfBirth).substring(2);
+
+        if(dayOfBirth >= 10) dd = Integer.toString(dayOfBirth);
+        else dd = "0" + Integer.toString(dayOfBirth);
+
+        if(monthOfBirth >= 10) mm = Integer.toString(monthOfBirth);
+        else mm = "0" + Integer.toString(monthOfBirth);
+
+        // random part of 5 digits in every Latvian personal id. e.g. 080892-23123
+        Random rand = new Random();
+        String personalIdSecondPart = Integer.toString(rand.nextInt(9999) + 10000);
+
+        return dd + mm + yy + "-" + personalIdSecondPart;
+    }
+
+    public void exposePersonalId() {
+        System.out.println(personalId);
+    }
 
     public int compareTo(Person person) {
         // TODO implement comparer

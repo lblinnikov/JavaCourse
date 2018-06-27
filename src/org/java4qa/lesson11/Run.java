@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Run {
     public static void main(String... arg) {
-        
+
         Person me =
                 new Person(null, "Levs", "Blinnikovs", 8, 8, 1992, false);
 
@@ -25,6 +25,9 @@ public class Run {
         assertTrue(underage.isUnderAge(), "Underage person should be underage!");
         assertTrue(kid.isChild(), "Kid is a child!");
         assertTrue(she.isFemale(), "She is a female!");
+
+        me.exposePersonalId();
+        she.exposePersonalId();
 
     }
 }
