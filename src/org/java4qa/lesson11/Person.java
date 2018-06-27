@@ -6,7 +6,7 @@ import java.time.Period;
 import java.util.Date;
 
 public class Person implements
-        Comparable, WithSex, NameHandler, LegalStatusAdvisor {
+        Comparable<Person>, WithSex, NameHandler, LegalStatusAdvisor {
 
     public Date dateOfBirth; // how to use it in yearsSince function?
     // Isn't it better to pass Date instead of triplet of day, month, year?
@@ -32,7 +32,8 @@ public class Person implements
     }
 
 
-    public int compareTo(Object o) {
+    public int compareTo(Person person) {
+        // TODO implement comparer
         return 0;
     }
 
