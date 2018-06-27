@@ -8,15 +8,18 @@ import java.util.Date;
 public class Person implements
         Comparable, WithSex, NameHandler, LegalStatusAdvisor {
 
-    public String firstName;
-    public String lastName;
     public Date dateOfBirth; // how to use it in yearsSince function?
     // Isn't it better to pass Date instead of triplet of day, month, year?
     public Date dateOfDeath;
 
+    public String firstName;
+    public String lastName;
+
     public int dayOfBirth;
     public int monthOfBirth;
     public int yearOfBirth;
+
+    public boolean isFemale;
 
     public BigInteger personalId;
 
@@ -54,6 +57,6 @@ public class Person implements
     }
 
     public boolean isFemale() {
-        return false;
+        return isFemale;
     }
 }
