@@ -1,7 +1,5 @@
 package org.java4qa.lesson11;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class Run {
