@@ -62,7 +62,7 @@ public class Person implements
     }
 
     public int compareTo(Person other) {
-        if (this.equals(other)) return 0;
+        if (this.equals(other)) return 0; // or better this == other ?? In sense of equals method I override in Person class, better to have .equals?
         else return 1;
     }
 
