@@ -43,13 +43,14 @@ public class Person implements
     }
 
     public String generatePersonalId() {
-        String dd;
-        String mm;
+
         String yy = Integer.toString(yearOfBirth).substring(2);
 
+        String dd;
         if(dayOfBirth >= 10) dd = Integer.toString(dayOfBirth);
         else dd = "0" + Integer.toString(dayOfBirth);
 
+        String mm;
         if(monthOfBirth >= 10) mm = Integer.toString(monthOfBirth);
         else mm = "0" + Integer.toString(monthOfBirth);
 
