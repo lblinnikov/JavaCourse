@@ -32,5 +32,9 @@ public class Run {
         me.changeFirstName("Leo");
         System.out.println(me.firstName);
 
+        // surname change test
+        she.changeLastName("Smith");
+        System.out.println(she.lastName);
+
     }
 }
