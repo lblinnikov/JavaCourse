@@ -24,8 +24,13 @@ public class Run {
         assertTrue(kid.isChild(), "Kid is a child!");
         assertTrue(she.isFemale(), "She is a female!");
 
+        // personal id generator
         me.exposePersonalId();
         she.exposePersonalId();
+
+        // name change test
+        me.changeFirstName("Leo");
+        System.out.println(me.firstName);
 
     }
 }

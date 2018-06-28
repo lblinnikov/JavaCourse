@@ -3,13 +3,12 @@ package org.java4qa.lesson11;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
-import java.util.Random;
+import static org.java4qa.lesson11.GovData.generatePersonalId;
 
 public class Person implements
         Comparable<Person>, WithSex, NameHandler, LegalStatusAdvisor {
 
-    public Date dateOfBirth; // how to use it in yearsSince function?
-    // Isn't it better to pass Date instead of triplet of day, month, year?
+    public Date dateOfBirth;
     public Date dateOfDeath;
 
     public String firstName;
@@ -31,34 +30,25 @@ public class Person implements
         this.monthOfBirth = monthOfBirth;
         this.yearOfBirth = yearOfBirth;
         this.isFemale = isFemale;
-        this.personalId = generatePersonalId();
+        this.personalId = generatePersonalId(this);
     }
 
-    //    public Gender gender;
+    public int getDayOfBirth() {
+        return dayOfBirth;
+    }
+
+    public int getMonthOfBirth() {
+        return monthOfBirth;
+    }
+
+    public int getYearOfBirth() {
+        return yearOfBirth;
+    }
 
     public static int yearsSince(int day, int month, int year) {
         LocalDate dateOfBirth = LocalDate.of(year, month, day);
         Period diff = Period.between(dateOfBirth, LocalDate.now());
         return diff.getYears();
-    }
-
-    public String generatePersonalId() {
-
-        String yy = Integer.toString(yearOfBirth).substring(2);
-
-        String dd;
-        if(dayOfBirth >= 10) dd = Integer.toString(dayOfBirth);
-        else dd = "0" + Integer.toString(dayOfBirth);
-
-        String mm;
-        if(monthOfBirth >= 10) mm = Integer.toString(monthOfBirth);
-        else mm = "0" + Integer.toString(monthOfBirth);
-
-        // random part of 5 digits in every Latvian personal id. e.g. 080892-23123
-        Random rand = new Random();
-        String personalIdSecondPart = Integer.toString(rand.nextInt(9999) + 10000);
-
-        return dd + mm + yy + "-" + personalIdSecondPart;
     }
 
     public void exposePersonalId() {
