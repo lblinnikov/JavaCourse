@@ -55,9 +55,15 @@ public class Person implements
         System.out.println(personalId);
     }
 
-    public int compareTo(Person person) {
-        // TODO implement comparer
-        return 0;
+    @Override
+    public boolean equals(Object other) {
+        if (other instanceof Person) return super.equals(other);
+        else return false;
+    }
+
+    public int compareTo(Person other) {
+        if (this.equals(other)) return 0;
+        else return 1;
     }
 
     public boolean isChild() {

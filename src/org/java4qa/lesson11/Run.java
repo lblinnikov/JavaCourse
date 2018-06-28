@@ -17,6 +17,12 @@ public class Run {
         Person she =
                 new Person(null, "Anna", "Claire", 20, 5, 1989, true);
 
+        Person dopplegangerOne =
+                new Person(null, "Mike", "Pike", 29, 5, 1969, false);
+
+        Person dopplegangerTwo =
+                new Person(null, "Mike", "Pike", 29, 5, 1969, false);
+
         // tests
 
         assertTrue(me.isAlive(), "Levs is alive!");
@@ -35,6 +41,15 @@ public class Run {
         // surname change test
         she.changeLastName("Smith");
         System.out.println(she.lastName);
+
+        // equality test
+        System.out.println(dopplegangerOne.firstName + dopplegangerTwo.lastName);
+        dopplegangerOne.exposePersonalId();
+        System.out.println(dopplegangerTwo.firstName + dopplegangerTwo.lastName);
+        dopplegangerTwo.exposePersonalId();
+
+        System.out.println(dopplegangerOne.compareTo(dopplegangerTwo));
+
 
     }
 }
