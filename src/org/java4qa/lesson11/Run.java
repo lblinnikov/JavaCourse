@@ -48,7 +48,11 @@ public class Run {
         System.out.println(dopplegangerTwo.firstName + dopplegangerTwo.lastName);
         dopplegangerTwo.exposePersonalId();
 
-        System.out.println(dopplegangerOne.compareTo(dopplegangerTwo));
+        System.out.println(dopplegangerOne.compareTo(dopplegangerTwo)); // comparing 2 ppl returns 1
+        System.out.println(dopplegangerTwo.compareTo(dopplegangerTwo)); // called on itself, returns 0
+
+        System.out.println(dopplegangerOne.equals(dopplegangerTwo)); // comparing equality of 2 ppl returns false
+        System.out.println(dopplegangerTwo.equals(dopplegangerTwo)); // called on itself, returns true
 
 
     }
