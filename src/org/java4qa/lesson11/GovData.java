@@ -17,8 +17,11 @@ public class GovData {
         else mm = "0" + Integer.toString(person.getMonthOfBirth());
 
         // random part of 5 digits in every Latvian personal id. e.g. 080892-23123
+        // additionally, will start with 1 is female and with 2 if male
         Random rand = new Random();
-        String personalIdSecondPart = Integer.toString(rand.nextInt(9999) + 10000);
+        String personalIdSecondPart = Integer.toString(rand.nextInt(999) + 1000);
+        if(person.isFemale()) personalIdSecondPart = "1" + personalIdSecondPart;
+        else personalIdSecondPart = "2" + personalIdSecondPart;
 
         return dd + mm + yy + "-" + personalIdSecondPart;
 
