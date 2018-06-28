@@ -1,6 +1,9 @@
 package org.java4qa.lesson11;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
 
 public class Run {
     public static void main(String... arg) {
@@ -49,10 +52,15 @@ public class Run {
         dopplegangerTwo.exposePersonalId();
 
         System.out.println(dopplegangerOne.compareTo(dopplegangerTwo)); // comparing 2 ppl returns 1
+        assertEquals(1, dopplegangerOne.compareTo(dopplegangerTwo));
         System.out.println(dopplegangerTwo.compareTo(dopplegangerTwo)); // called on itself, returns 0
+        assertEquals(0, dopplegangerTwo.compareTo(dopplegangerTwo));
 
         System.out.println(dopplegangerOne.equals(dopplegangerTwo)); // comparing equality of 2 ppl returns false
+        assertFalse(dopplegangerOne.equals(dopplegangerTwo),"Non equal people should not be equal!");
         System.out.println(dopplegangerTwo.equals(dopplegangerTwo)); // called on itself, returns true
+        assertTrue(dopplegangerTwo.equals(dopplegangerTwo), "Equal people should be equal!");
+
 
 
     }
