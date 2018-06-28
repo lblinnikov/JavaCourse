@@ -1,11 +1,9 @@
 package org.java4qa.lesson11;
 
-import java.math.BigInteger;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
 import java.util.Random;
-import java.util.stream.IntStream;
 
 public class Person implements
         Comparable<Person>, WithSex, NameHandler, LegalStatusAdvisor {
