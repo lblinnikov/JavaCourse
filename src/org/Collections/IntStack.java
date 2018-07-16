@@ -18,10 +18,13 @@ public class IntStack {
 
     /**
      * Retrieve without removal
-     * @return int
+     * @return element
      */
 
-    public int peek() {}
+    public int peek() {
+        int element;
+        return element;
+    }
 
     public boolean isEmpty() {
         return false;
