@@ -44,7 +44,7 @@ class IntStack {
 
     // I chose Integer instead of int because otherwise there was error when tyring to return null
     Integer pop() {
-        if(this.isEmpty()) {
+        if(isEmpty()) {                 // or this.isEmpty()
             int temp = this.peek();
             arr[top-1] = null;
             top--;
@@ -72,7 +72,7 @@ class IntStack {
      */
 
     boolean isEmpty() {
-        return (top == 0);
+        return top == 0;
     }
 
 }
