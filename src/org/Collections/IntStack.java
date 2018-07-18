@@ -1,12 +1,12 @@
 package org.Collections;
 
-public class IntStack {
+class IntStack {
 
     Integer maxSize;
     Integer top;
     Integer arr[];
 
-    public IntStack(int size) {
+    IntStack(int size) {
         maxSize = size;
         arr = new Integer[maxSize];
         top = 0;
@@ -17,13 +17,13 @@ public class IntStack {
      * @param element The element to push onto this stack.
      */
 
-    public void push(Integer element) {
+    void push(Integer element) throws StackOverflowError {
         if(top < maxSize) {
             arr[top] = element;
             top++;
         }
         else {
-            System.out.println("Stack overflow!");
+            throw new StackOverflowError("Stack overflow!");
         }
     }
 
@@ -31,7 +31,7 @@ public class IntStack {
      * Pops the last value pushed onto this stack.
      */
 
-    public Integer pop() {
+    Integer pop() {
         if(this.isEmpty()) {
             int temp = this.peek();
             arr[top-1] = null;
@@ -48,7 +48,7 @@ public class IntStack {
      * @return element
      */
 
-    public Integer peek() {
+    Integer peek() {
         if(top > 0){
             return arr[top-1];
         }
@@ -59,7 +59,7 @@ public class IntStack {
      * Returns if stack is empty
      */
 
-    public boolean isEmpty() {
+    boolean isEmpty() {
         if(top == 0){
             return true;
         }
