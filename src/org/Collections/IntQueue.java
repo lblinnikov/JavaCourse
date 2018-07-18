@@ -24,7 +24,7 @@
 //    }
 //
 //    /**
-//     * Pops the last value pushed onto this stack.
+//     * Pulls the last value pushed onto this stack.
 //     */
 //
 //    public void pull() {}
