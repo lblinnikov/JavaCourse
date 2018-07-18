@@ -4,7 +4,6 @@ public class IntStack {
 
     /**
      * Pushes element onto this stack.
-     *
      * @param element The element to push onto this stack.
      */
 
