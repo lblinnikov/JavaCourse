@@ -42,6 +42,7 @@ class IntStack {
      * Pops the last value pushed onto this stack.
      */
 
+    // I chose Integer instead of int because otherwise there was error when tyring to return null
     Integer pop() {
         if(this.isEmpty()) {
             int temp = this.peek();
