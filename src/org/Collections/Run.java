@@ -7,16 +7,21 @@ public class Run {
 
         IntStack myStack = new IntStack(4);
         System.out.println(myStack.isEmpty());
+
         myStack.push(1);
-        System.out.println(myStack.isEmpty());
+        System.out.println(myStack.isEmpty()); // testing addition
         System.out.println(myStack.peek());
+
         myStack.push(2);
         System.out.println(myStack.peek());
+
         myStack.push(3);
         System.out.println(myStack.peek());
+
         myStack.push(4);
         System.out.println(myStack.peek());
-        myStack.push(5);
+
+        myStack.push(5); // testing boundaries
 
         myStack.pop();
         System.out.println(myStack.peek());
