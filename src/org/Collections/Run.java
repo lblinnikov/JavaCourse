@@ -4,8 +4,8 @@ public class Run {
 
     public static void main(String... arg) {
 
-
-        IntStack myStack = new IntStack(4);
+        // arr impl
+        IntStackArr myStack = new IntStackArr(4);
         System.out.println(myStack.isEmpty());
 
         myStack.push(1);
@@ -25,6 +25,15 @@ public class Run {
 
         myStack.pop();
         System.out.println(myStack.peek());
+
+
+        // Linked list impl
+        IntStackLinkedList lnkStack = new IntStackLinkedList();
+        lnkStack.push(10);
+        lnkStack.push(15);
+        lnkStack.push(20);
+
+        System.out.println(lnkStack.peek());
 
 
 

@@ -1,12 +1,12 @@
 package org.Collections;
 
-class IntStack {
+class IntStackArr {
 
     private Integer maxSize;
     private Integer top;
     private Integer arr[];
 
-    IntStack(int size) {
+    IntStackArr(int size) {
         maxSize = size;
         arr = new Integer[maxSize];
         top = 0;
