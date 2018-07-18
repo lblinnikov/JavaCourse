@@ -35,6 +35,17 @@ public class Run {
 
         System.out.println(lnkStack.peek());
 
+        lnkStack.pop();
+        System.out.println(lnkStack.peek());
+
+        lnkStack.pop();
+        System.out.println(lnkStack.peek());
+
+        lnkStack.pop();
+        System.out.println(lnkStack.peek());
+
+        lnkStack.pop(); // err?
+
 
 
 
