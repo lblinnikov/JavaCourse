@@ -2,9 +2,9 @@ package org.Collections;
 
 class IntStack {
 
-    Integer maxSize;
-    Integer top;
-    Integer arr[];
+    private Integer maxSize;
+    private Integer top;
+    private Integer arr[];
 
     IntStack(int size) {
         maxSize = size;
@@ -17,15 +17,26 @@ class IntStack {
      * @param element The element to push onto this stack.
      */
 
-    void push(Integer element) throws StackOverflowError {
+//    void push(Integer element) throws StackOverflowError {
+//        if(top < maxSize) {
+//            arr[top] = element;
+//            top++;
+//        }
+//        else {
+//            throw new StackOverflowError("Stack overflow!");
+//        }
+//    }
+
+    void push(Integer element) {
         if(top < maxSize) {
             arr[top] = element;
             top++;
         }
         else {
-            throw new StackOverflowError("Stack overflow!");
+            System.out.println("Stack overflow!");
         }
     }
+
 
     /**
      * Pops the last value pushed onto this stack.
@@ -60,12 +71,7 @@ class IntStack {
      */
 
     boolean isEmpty() {
-        if(top == 0){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return (top == 0);
     }
 
 }
