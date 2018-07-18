@@ -20,11 +20,11 @@ public class IntStack {
      * @return element
      */
 
-    public int peek() {
+   /* public int peek() {
         int element;
         return element;
     }
-
+*/
     public boolean isEmpty() {
         return false;
     }

@@ -1,18 +1,14 @@
 package org.Collections;
 
-public class Node {
+class Node {
 
-    public int data;
+    private int data;
 
-    public Node next;
+    private Node next;
 
-    public Node(int data, Node next) {
+    Node(int data, Node next) {
         this.data = data;
         this.next = next;
-    }
-
-    public String toString() {
-        return data + "";
     }
 
 }

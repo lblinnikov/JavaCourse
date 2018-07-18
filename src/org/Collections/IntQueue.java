@@ -22,10 +22,10 @@ public class IntQueue {
      * @return element
      */
 
-    public int peek() {
-        int element;
-        return element;
-    }
+//    public int peek() {
+//        int element;
+//        return element;
+//    }
 
     /**
      * Returns size (element count) of the queue.
@@ -33,10 +33,10 @@ public class IntQueue {
      * @return size;
      */
 
-    public int size() {
-        int size;
-        return size;
-    }
+//    public int size() {
+//        int size;
+//        return size;
+//    }
 
     public boolean isEmpty() {
         return false;
