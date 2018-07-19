@@ -5,11 +5,11 @@ import java.util.EmptyStackException;
 class IntStackLinkedList {
 
     private Node top;
-    private int length;
+    private int size;
 
     IntStackLinkedList() {
-        top = null;
-        length = 0;
+        this.top = null;
+        this.size = 0;
     }
 
     /**
@@ -21,7 +21,7 @@ class IntStackLinkedList {
         Node temp = new Node(element);
         temp.next = top;
         top = temp;
-        length++;
+        size++;
     }
 
     /**
@@ -34,7 +34,7 @@ class IntStackLinkedList {
         }
         int result = top.data;
         top = top.next;
-        length--;
+        size--;
         return result;
     }
 
@@ -54,12 +54,8 @@ class IntStackLinkedList {
      * Returns if stack is empty
      */
 
-    boolean isEmpty() {
-        return length == 0;
-    }
-
-    int length(){
-        return length;
+    private boolean isEmpty() {
+        return size == 0;
     }
 
 }
