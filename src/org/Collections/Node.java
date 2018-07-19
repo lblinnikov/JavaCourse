@@ -1,6 +1,6 @@
 package org.Collections;
 
-class Node {
+class Node { // linked list node
 
     int data;
     Node next;
