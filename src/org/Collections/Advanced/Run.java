@@ -31,9 +31,11 @@ public class Run {
         System.out.println(langConverter.langConverter("yES"));
         System.out.println(langConverter.langConverter("Y"));
         System.out.println(langConverter.langConverter("ON"));
+
         System.out.println(langConverter.langConverter("no"));
         System.out.println(langConverter.langConverter("FaLSe"));
         System.out.println(langConverter.langConverter("oFF"));
+
         System.out.println(langConverter.langConverter("ASqdweasdqwesd"));
 
 
