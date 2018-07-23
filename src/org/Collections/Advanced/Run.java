@@ -1,7 +1,5 @@
 package org.Collections.Advanced;
 
-import java.util.Scanner;
-
 public class Run {
 
     public static void main(String... arg) {
@@ -20,11 +18,6 @@ public class Run {
         System.out.println(advancedRequest2.hasBody());
 
         //2
-        //Scanner userInput = new Scanner(System.in);
-        //System.out.println("Yes or no?");
-
-        //String stringInput = userInput.next();
-
         LangConverter langConverter = new LangConverter();
 
         System.out.println(langConverter.langConverter("YeS"));
@@ -34,7 +27,9 @@ public class Run {
 
         System.out.println(langConverter.langConverter("no"));
         System.out.println(langConverter.langConverter("FaLSe"));
+        System.out.println(langConverter.langConverter("n"));
         System.out.println(langConverter.langConverter("oFF"));
+
 
         System.out.println(langConverter.langConverter("ASqdweasdqwesd"));
 
