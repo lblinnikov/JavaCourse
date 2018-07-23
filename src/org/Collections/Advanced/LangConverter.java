@@ -2,12 +2,10 @@ package org.Collections.Advanced;
 
 import java.util.HashMap;
 
-public class LangConverter {
+class LangConverter {
 
-    public final static HashMap<String, Boolean> input;
-
-    static {
-        input = new HashMap<>();
+    private static HashMap<String , Boolean> getInput() {
+        HashMap<String, Boolean> input = new HashMap<>();
 
         input.put("yes", true);
         input.put("true", true);
@@ -18,10 +16,13 @@ public class LangConverter {
         input.put("false", false);
         input.put("n", false);
         input.put("off", false);
+
+        return input;
     }
 
+
     Boolean convert(String value){
-        return input.getOrDefault(value.toLowerCase(), null);
+        return getInput().getOrDefault(value.toLowerCase(), null);
     }
 
 }

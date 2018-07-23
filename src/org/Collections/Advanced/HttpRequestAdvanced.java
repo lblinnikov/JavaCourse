@@ -10,7 +10,7 @@ class HttpRequestAdvanced extends HttpRequest {
     }
 
     boolean hasBody() {
-        return request.get(method);
+        return getRequest().get(method);
     }
 
 }
