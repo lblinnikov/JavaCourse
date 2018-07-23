@@ -1,4 +1,4 @@
-package org.Collections.Advanced;
+package org.Collections.Advanced.SeaBattle;
 
 public class Coordinate {
 
