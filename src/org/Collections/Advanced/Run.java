@@ -1,11 +1,15 @@
 package org.Collections.Advanced;
 
+import java.util.Scanner;
+
 public class Run {
 
     public static void main(String... arg) {
 
         HttpRequest request = new HttpRequest();
 
+
+        //1
         System.out.println(request.hasBody("PUT"));
         System.out.println(request.hasBody("GET"));
 
@@ -14,6 +18,23 @@ public class Run {
 
         System.out.println(advancedRequest1.hasBody());
         System.out.println(advancedRequest2.hasBody());
+
+        //2
+        //Scanner userInput = new Scanner(System.in);
+        //System.out.println("Yes or no?");
+
+        //String stringInput = userInput.next();
+
+        LangConverter langConverter = new LangConverter();
+
+        System.out.println(langConverter.langConverter("YeS"));
+        System.out.println(langConverter.langConverter("yES"));
+        System.out.println(langConverter.langConverter("Y"));
+        System.out.println(langConverter.langConverter("ON"));
+        System.out.println(langConverter.langConverter("no"));
+        System.out.println(langConverter.langConverter("FaLSe"));
+        System.out.println(langConverter.langConverter("oFF"));
+        System.out.println(langConverter.langConverter("ASqdweasdqwesd"));
 
 
     }
