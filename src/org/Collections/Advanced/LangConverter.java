@@ -20,7 +20,7 @@ public class LangConverter {
         input.put("off", false);
     }
 
-    Boolean langConverter(String value){
+    Boolean convert(String value){
         return input.getOrDefault(value.toLowerCase(), null);
     }
 

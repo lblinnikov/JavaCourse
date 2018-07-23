@@ -18,20 +18,20 @@ public class Run {
         System.out.println(advancedRequest2.hasBody());
 
         //2
-        LangConverter langConverter = new LangConverter();
+        LangConverter phrase = new LangConverter();
 
-        System.out.println(langConverter.langConverter("YeS"));
-        System.out.println(langConverter.langConverter("yES"));
-        System.out.println(langConverter.langConverter("Y"));
-        System.out.println(langConverter.langConverter("ON"));
+        System.out.println(phrase.convert("YeS"));
+        System.out.println(phrase.convert("yES"));
+        System.out.println(phrase.convert("Y"));
+        System.out.println(phrase.convert("ON"));
 
-        System.out.println(langConverter.langConverter("no"));
-        System.out.println(langConverter.langConverter("FaLSe"));
-        System.out.println(langConverter.langConverter("n"));
-        System.out.println(langConverter.langConverter("oFF"));
+        System.out.println(phrase.convert("no"));
+        System.out.println(phrase.convert("FaLSe"));
+        System.out.println(phrase.convert("n"));
+        System.out.println(phrase.convert("oFF"));
 
 
-        System.out.println(langConverter.langConverter("ASqdweasdqwesd"));
+        System.out.println(phrase.convert("ASqdweasdqwesd"));
 
 
     }
