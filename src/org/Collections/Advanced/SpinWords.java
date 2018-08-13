@@ -6,7 +6,7 @@ import java.util.List;
 
 public class SpinWords {
 
-    public String spinWords(String sentence) {
+    public static String spinWords(String sentence) {
         String separator = " ";
         String word = "";
         List<String> wordList = new ArrayList<>(Arrays.asList(sentence.split(separator)));
@@ -28,9 +28,7 @@ public class SpinWords {
 
     public static void main(String... arg) {
 
-        SpinWords spinWords = new SpinWords();
-
-        spinWords.spinWords("Testing this long unmodified string");
+        spinWords("Testing this long unmodified string");
 
     }
 
